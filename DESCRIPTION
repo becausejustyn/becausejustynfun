@@ -14,5 +14,6 @@ BugReports: https://github.com/becausejustyn/becausejustynfun/issues
 Imports: 
     broom,
     dplyr,
+    ggplot2,
     magrittr,
     rlang

@@ -55,7 +55,7 @@ devtools::load_all()
 
 ```
 Put curser inside the function then either
-	Menu -> Code -> Insert Roxygen Skeleton
+	Code -> Insert Roxygen Skeleton
 	Shift + Option + Apple + R
 ```
 
