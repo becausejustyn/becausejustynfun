@@ -15,5 +15,7 @@ Imports:
     broom,
     dplyr,
     ggplot2,
+    ggthemes,
+    grid,
     magrittr,
     rlang

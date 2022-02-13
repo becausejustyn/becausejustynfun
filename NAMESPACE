@@ -2,7 +2,10 @@
 
 export("%>%")
 export(compute_corr)
+export(theme_dark_blue)
 export(white_theme)
 import(ggplot2)
+import(ggthemes)
+import(grid)
 importFrom(magrittr,"%>%")
 importFrom(rlang,.data)
