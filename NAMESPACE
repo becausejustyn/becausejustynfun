@@ -2,6 +2,7 @@
 
 export("%>%")
 export(compute_corr)
+export(dark_theme)
 export(theme_dark_blue)
 export(white_theme)
 import(ggplot2)
