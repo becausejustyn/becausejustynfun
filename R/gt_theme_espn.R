@@ -1,14 +1,19 @@
 #' ESPN GT Theme
-#'
-#' @param data
-#' @param ...
-#'
+#' @param gt_object An existing gt table object of class `gt_tbl`
+#' @param ... Optional additional arguments to `gt::table_options()`
+#' @return An object of class `gt_tbl`.
+#' @importFrom gt %>%
+#' @export
 #' @import gt
-#'
-#' @return
-#' @export gt_theme_espn
-#'
 #' @examples
+#'
+#' library(gt)
+#' themed_tab <- head(mtcars) %>%
+#'   gt() %>%
+#'   gt_theme_espn()
+#' @section Figures:
+#' \if{html}{\figure{gt_espn.png}{options: width=100\%}}
+
 gt_theme_espn <- function(data, ...){
   data %>%
     opt_all_caps()  %>%
@@ -33,3 +38,5 @@ gt_theme_espn <- function(data, ...){
       ...
     )
 }
+
+

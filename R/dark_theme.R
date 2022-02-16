@@ -3,7 +3,7 @@ library(ggthemes)
 
 #' Title
 #'
-#' @param ...
+#' @param ... additional arguments
 #'
 #' @import ggplot2
 #'

@@ -7,7 +7,7 @@
 dark_theme(...)
 }
 \arguments{
-\item{...}{}
+\item{...}{additional arguments}
 }
 \description{
 Title
