@@ -17,5 +17,6 @@ Imports:
     ggplot2,
     ggthemes,
     grid,
+    gt,
     magrittr,
     rlang
